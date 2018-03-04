@@ -27,3 +27,23 @@ i) \
 j) |
 
 k) ()
+
+4) Use Python's raw string notation for regular expressions to avoid the backslash plaque.
+  i) r"\n" is a two character string containing '\' and 'n'.
+  ii) "\n" is a one character string containg a newline.
+
+5) Python methods
+  
+  i) match()
+    a) Determine if the re matches at the beginning of the string.
+    b) Return 'None' if no match found.
+
+  ii) search()
+    a) Scan through a string, looking for any location where this RE matches.
+    b) Return 'None' if no match found.
+
+  iii) findall()
+    a) Find all substrings where the RE matches, and return them as a list.
+
+  iv) finditer()
+    a) Find all substrings where the RE matches, and return them as an iterator.
