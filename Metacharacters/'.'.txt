@@ -1,0 +1,2 @@
+1) Matches anything except a newline character
+2) Has an alternate mode re.DOTALL which matches all characters using newline character.

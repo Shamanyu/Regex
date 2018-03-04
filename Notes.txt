@@ -1,0 +1,29 @@
+1) Most characters match themselves.
+
+
+2) Some characters are special metacharacters, and don't matcch themselves. Instead, they signal that some out-of-the-ordinary thing should be matched, or they affect other portions of the RE by repeating them or changing their meaning.
+
+
+3) Complete list of metacharacters:
+
+a) .
+
+b) ^
+
+c) $
+
+d) *
+
+e) +
+
+f) ?
+
+g) {m, n}
+
+h) [ ]
+
+i) \
+
+j) |
+
+k) ()

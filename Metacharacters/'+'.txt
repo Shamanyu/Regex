@@ -1,0 +1,1 @@
+1) Previous character can be matched once or multiple times.

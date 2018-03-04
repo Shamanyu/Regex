@@ -1,0 +1,4 @@
+1) Previous character can be matched zero or multiple times.
+2) Greedy. Tries to match as many times as possible, and if later portions of pattern don't match, the matching engine will back up and try again with fewer repetitions.
+3) Examples
+  i) a[bcd]*b

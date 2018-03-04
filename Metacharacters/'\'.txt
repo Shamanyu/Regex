@@ -1,0 +1,11 @@
+Can be followed by various characters to signal various special sequences. Also used to escape all metacharacters so they can be still matched in patterns.
+  1) \[
+  2) \\
+  3) \w: Matches any alphanumeric character: [a-zA-Z0-9_]
+  4) \d: Matches any digit: [0-9]
+  5) \D: Matches any non digit character: [^0-9]
+  6) \s: Matches any whitespace character: [ \t\n\r\f\v]
+  7) \S: Matches any non whitespace character: [^ \t\n\r\f\v]
+  8) \w: Matches any alphanumeric character: [a-zA-Z0-9_]
+  9) \W: Matches any non-alphanumeric character: [^a-zA-Z0-9_]
+  10) [\s,.]: Matches any whitespace character or ',' or '.'

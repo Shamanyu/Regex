@@ -1,0 +1,9 @@
+Used to specify a character class
+  1) Characters can be listed individually
+    i) [abc]
+  2) A range of characters can be indicated by giving two characters and separating them by a '-'.
+    i) [a-c]
+  3) Metacharacters aren't active inside classes
+    i) [akm$]
+  4) Complement the set using '^' as the first character of the class. Outside a class it becomes a normal character
+    i) [^5]: Match every character except 5
