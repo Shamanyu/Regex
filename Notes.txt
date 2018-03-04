@@ -47,3 +47,10 @@ k) ()
 
   iv) finditer()
     a) Find all substrings where the RE matches, and return them as an iterator.
+
+6) Module level functions
+  
+  a) Don't need to create pattern object.
+  b) Top level functions support string arguments (They compile in the background for us).
+  c) Compiled object stored in cache for future calls with same pattern.
+  d) 
